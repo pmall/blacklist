@@ -2,6 +2,7 @@
 
 namespace Pmall\Blacklist;
 
+use Auth;
 use Closure;
 use Illuminate\Contracts\Config\Repository as Config;
 use Symfony\Component\HttpKernel\Exception\HttpException;
