@@ -1,0 +1,15 @@
+{
+    "name": "pmall/blacklist",
+    "description": "Middleware for blocking acces to some users based on their email addresses",
+    "authors": [
+        {
+            "name": "Pierre Mallinjoud",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pmall\\Blacklist\\": "src/"
+        }
+    }
+}
